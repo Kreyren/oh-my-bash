@@ -151,6 +151,9 @@ else
   if [ -n "$OSH_THEME" ]; then
     if [ -f "${OSH_CUSTOM}/$OSH_THEME/$OSH_THEME.theme.bash" ]; then
       source "${OSH_CUSTOM}/$OSH_THEME/$OSH_THEME.theme.bash"
+		# https://github.com/ohmybash/oh-my-bash/issues/70
+	  elif [ -f "$OSH_CUSTOM/themes/$OSH_THEME/${OSH_THEME}-bash.theme.sh" ]; then
+	      source "$OSH_CUSTOM/themes/$OSH_THEME/${OSH_THEME}-bash.theme.sh"
     elif [ -f "${OSH_CUSTOM}/themes/$OSH_THEME/$OSH_THEME.theme.bash" ]; then
       source "${OSH_CUSTOM}/themes/$OSH_THEME/$OSH_THEME.theme.bash"
     else
