@@ -10,4 +10,4 @@ Original repository seems to have lots of code grabbed from the external sources
 ### Copyright notice
 This repository is fork of ![Toan Nguyen](https://github.com/nntoan)'s ![oh-my-bash](https://github.com/nntoan) if you find code that is conflicting with a valid copyright then feel free to make a Merge Request with **valid copyright claim** to remove it. Maintainers and contributors of RXT067/what-the-bash repository are not responsible for copyright violations.
 
-All files in this repository are licenced under the terms and conditions of GNU General Public License v2.0 (https://github.com/RXT067/what-the-bash/blob/kreyren/LICENSE) unless stated otherwise
+All files in this repository are licenced under the terms and conditions of ![GNU General Public License v2.0](LICENSE) unless stated otherwise
