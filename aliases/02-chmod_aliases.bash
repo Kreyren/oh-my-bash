@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
+# Standardized aliases to chmod command
 #  ---------------------------------------------------------------------------
 
-alias perm='stat --printf "%a %n \n "'      # perm: Show permission of target in number
+# perm: Show permission of target in number
+alias perm='stat --printf "%a %n \n "'
+# Permission handling
 alias 000='chmod 000'                       # ---------- (nobody)
 alias 640='chmod 640'                       # -rw-r----- (user: rw, group: r, other: -)
 alias 644='chmod 644'                       # -rw-r--r-- (user: rw, group: r, other: -)
